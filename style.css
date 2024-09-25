@@ -44,13 +44,13 @@ body {
 
 /* 空白的意思是選擇子內容 */
 /* id選擇器, 選擇所有 id="wrapper"的東西裡面 class="btn" 的東西*/
-.wrapper .btn {
-    /* 指定寬度 */
+度.wrapper .btn {
+    /* 指定寬 */
     width: 50rem;
     /* 撐開內邊距 */
     padding: 3%;
     /* 陰影 */
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 1px 1px #81181833;
     /* 外框 */
     border: 1px solid #51515130;
     /* 變形, 幅度為 .3rem (圓角矩形) */
@@ -58,6 +58,24 @@ body {
     /* 過度動畫長度指定半秒鐘 */
     transition: all .5s;
 }
+.wrapper .btn1{
+    background-color: aqua;
+    color: azure;
+} 
+.wrapper .btn2{
+    background-color: rgb(235, 57, 244);
+    color: rgb(179, 225, 13);
+} 
+.wrapper .btn3{
+    background-color: rgb(23, 221, 16);
+    color: rgb(36, 9, 237);
+} 
+.wrapper .btn4{
+    background-color: rgb(240, 15, 3);
+    color: rgb(255, 145, 0);
+} 
+
+
 
 /* 冒號的意思是選擇虛擬類別 */
 /* id選擇器, 選擇所有 id="wrapper"的東西裡面 class="btn" 的東西*/
